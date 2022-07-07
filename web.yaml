@@ -4,7 +4,7 @@
     - name: install httpd
       package: name=httpd state=installed
     - name: configure
-      shell: "echo Welcome to Raman Khanna Server - V1 > /var/www/html/index.html"
+      shell: "echo Welcome to RUpesh patil Server - V2 > /var/www/html/index.html"
     - name: start service
       service: name=httpd state=started
     - name: add user

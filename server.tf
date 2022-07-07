@@ -2,7 +2,7 @@ provider "aws" {
 region = "us-east-1"
 }
 resource "aws_instance" "myawsserver" {
-  ami = "ami-077e31c4939f6a2f3"
+  ami = "ami-0a01a5636f3c4f21c"
   instance_type = "t2.micro"
   key_name = "raman-import"
 
